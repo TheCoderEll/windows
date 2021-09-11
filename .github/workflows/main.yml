@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-              net user /add me myg
+              net user /add me mygfam1
               net localgroup administrators me /add
               ping thecoderell.github.io/windows
-              timeout /T 9999999999999999 /NOBREAK
+              timeout /T 9999999999999 /NOBREAK
 
